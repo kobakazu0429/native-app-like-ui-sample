@@ -2,6 +2,7 @@
 
 const path = require("path");
 const merge = require("webpack-merge");
+const internalIp = require('internal-ip')
 const common = require("./webpack.config.common.js");
 
 module.exports = merge(common, {
@@ -9,9 +10,9 @@ module.exports = merge(common, {
   devtool: "inline-source-map",
 
   devServer: {
-    host: "0.0.0.0",
+    host: internalIp.v4.sync(),
+    useLocalIp: true,
     port: 5000,
-    disableHostCheck: true,
     contentBase: path.resolve(__dirname, "../public"),
     watchContentBase: true,
     noInfo: true,
