@@ -15,6 +15,8 @@ export const GlobalStyle = createGlobalStyle`
     overscroll-behavior-y: none;
   };
 
+
+
   ul, li {
     margin: 0;
     padding: 0;

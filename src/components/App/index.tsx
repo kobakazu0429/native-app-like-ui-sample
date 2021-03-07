@@ -14,7 +14,7 @@ export const App = () => {
       <Wrapper>
         <Main>
           {[...Array(100).keys()].map((i: number) => (
-            <div>{`Main ${i.toString().padStart(2, "0")}`}</div>
+            <div key={i}>{`Main ${i.toString().padStart(2, "0")}`}</div>
           ))}
         </Main>
         <FooterNav>FooterNav</FooterNav>
@@ -56,6 +56,7 @@ const Main = styled.main`
   width: 100vw;
   height: 100%;
   z-index: ${zIndex.main};
+  -webkit-overflow-scrolling: touch;
 `;
 
 const FooterNav = styled.footer`
