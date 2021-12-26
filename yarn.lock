@@ -499,7 +499,7 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/styled-components@^4.4.2":
+"@types/styled-components@4.4.2":
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.4.2.tgz#709fa7afd7dc0963b8316a0159240f0fe19a026d"
   integrity sha512-dngFx2PuGoy0MGE68eHayAmJvLSqWrnTe9w+DnQruu8PS+waWEsKmoBRhkzL2h2pK1OJhzJhVfuiz+oZa4etpA==
@@ -2820,6 +2820,14 @@ ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
+internal-ip@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/internal-ip/-/internal-ip-5.0.0.tgz#e7c24aea05308f57b7b3ca7c80c07da8f25e224f"
+  integrity sha512-2rbiwUsG8My+vT/JBdaE2r6EjzOibu4VXjkfdVBP9PbfTn68EE1DCZ4iw6dOnc+FGsFL4uAqap/eeNoqK5sdtA==
+  dependencies:
+    default-gateway "^5.0.4"
+    ipaddr.js "^1.9.1"
+
 internal-ip@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/internal-ip/-/internal-ip-4.3.0.tgz#845452baad9d2ca3b69c635a137acb9a0dad0907"
@@ -2827,14 +2835,6 @@ internal-ip@^4.3.0:
   dependencies:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
-
-internal-ip@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/internal-ip/-/internal-ip-5.0.0.tgz#e7c24aea05308f57b7b3ca7c80c07da8f25e224f"
-  integrity sha512-2rbiwUsG8My+vT/JBdaE2r6EjzOibu4VXjkfdVBP9PbfTn68EE1DCZ4iw6dOnc+FGsFL4uAqap/eeNoqK5sdtA==
-  dependencies:
-    default-gateway "^5.0.4"
-    ipaddr.js "^1.9.1"
 
 interpret@1.2.0:
   version "1.2.0"
@@ -5606,7 +5606,7 @@ webpack-merge@4.2.2:
   dependencies:
     lodash "^4.17.15"
 
-webpack-pwa-manifest@^4.1.1:
+webpack-pwa-manifest@4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/webpack-pwa-manifest/-/webpack-pwa-manifest-4.1.1.tgz#f9fb9880e82b564026253b30dcbded2858a8b8ea"
   integrity sha512-jnQsbU0O56OUATDPBKePe5HHoKfSN5zSKAqiSbD9JfIOXlfsHdja4+19RNy2uj//WX1byFZz2ZAdRtrelKPE/Q==
